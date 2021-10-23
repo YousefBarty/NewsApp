@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:elevation="6dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+<ImageView
+    android:id="@+id/urlToImage"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:scaleType="centerCrop">
+</ImageView>
+    <TextView
+        android:text="Test"
+        android:textSize="18sp"
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="Test"
+        android:textSize="18sp"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="Test"
+        android:textSize="18sp"
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="Test"
+        android:textSize="18sp"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
